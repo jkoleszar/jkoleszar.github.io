@@ -1,5 +1,7 @@
 # The URL the site will be built for
 base_url = "https://k6r.org"
+title = "John Koleszar"
+theme = "kodama-theme"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,3 +16,25 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+# Image of your avatar displayed on the landing page
+avatar = "static/img/johnk.png"
+
+# Image of the favicon
+favicon = "static/img/johnk.png"
+
+# Your email address showed in the contact section
+email = "john[at]k6r.org"
+
+# If you don't want to show your contact information in the index
+contact_in_index = false
+
+# Additional menu items
+# `Name` is what it is displayed, `path` is the url
+menu_items = [
+  { path = "#contacts", name = "Contact" },
+]
+
+[[section.extra.avatar_icons]]
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/johnkoleszar"
