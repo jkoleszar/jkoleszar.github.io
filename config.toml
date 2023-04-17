@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://jkoleszar.github.io"
+base_url = "https://www.johnk.xyz"
 title = "John Koleszar"
 theme = "kodama-theme"
 
