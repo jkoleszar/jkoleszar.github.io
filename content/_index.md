@@ -1,5 +1,5 @@
 +++
-title = "John Koleszar | Messing About In Code"
+title = "Messing About In Code"
 date = 2023-01-25
 page_template="simple-page.html"
 
