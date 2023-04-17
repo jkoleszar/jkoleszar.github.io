@@ -9,10 +9,12 @@
       <div class="container mx-auto">
         {% set image = resize_image(path=config.extra.avatar, format="webp", width=208, height=208) %}
         <img class="object-center w-52 h-52 rounded-full mx-auto" src="{{image.url}}" alt="Profile image"/>
-        <h1 class="text-center font-bold break-normal text-gray-900 text-3xl py-1">{{ config.title }}</h1>
-        {% if section.extra.title %}
-        <h2 class="text-center font-bold break-normal text-gray-400 text-lg py-1">{{ section.extra.title }}</h2>
-        {% endif %}
+        <h1 class="text-center font-bold break-normal text-gray-900 text-3xl py-1">
+          {{ config.title }}
+        </h1>
+        <h2 class="text-center font-bold break-normal text-gray-400 text-lg py-1">
+          Pursuing Unconventional Wisdom
+        </h2>
         <div class="flex flex-row flex-wrap container py-10 justify-center">
           {% for icon in section.extra.avatar_icons %}
             <div class="basis p-3 ">
@@ -23,7 +25,9 @@
       </div>
     </div>
     <div class="basis-full sm:basis-3/5">
-      <h1 class="font-bold font-sans break-normal text-gray-900 text-3xl sm:text-5xl pb-4">Biography</h1>
+      <h1 class="font-bold font-sans break-normal text-gray-900 text-3xl sm:text-5xl pb-4">
+        About Me
+      </h1>
       <article class="prose prose-indigo prose">
       {{ section.content | safe }}
       </article>
@@ -31,9 +35,10 @@
         <div class="basis-full sm:basis-1/2 pb-4">
           <h2 class="font-bold font-sans break-normal text-gray-900 text-2xl py-1">Interests</h2>
           <ul class="list-disc pl-4">
-            {% for interest in section.extra.interests %}
-            <li class="py-1"> {{ interest }} </li>
-            {% endfor %}
+            <li class="py-1">Low-level Software</li>
+            <li class="py-1">Performance Optimization</li>
+            <li class="py-1">Hardware-in-the-Loop Testing</li>
+            <li class="py-1">Build Systems</li>
           </ul>
         </div>
       </div>

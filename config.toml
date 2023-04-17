@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://k6r.org"
+base_url = "https://www.johnk.xyz"
 title = "John Koleszar"
 theme = "kodama-theme"
 
@@ -32,7 +32,7 @@ contact_in_index = false
 # Additional menu items
 # `Name` is what it is displayed, `path` is the url
 menu_items = [
-  { path = "#contacts", name = "Contact" },
+  { path = "contact", name = "Contact" },
 ]
 
 [[section.extra.avatar_icons]]

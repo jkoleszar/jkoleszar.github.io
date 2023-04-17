@@ -1,22 +1,11 @@
 +++
-title = "John Koleszar"
+title = "John Koleszar | Messing About In Code"
 date = 2023-01-25
 page_template="simple-page.html"
-
-[extra]
-title = "Pursuing Unconventional Wisdom"
-
-interests = [
-  "Rainbow pony",
-  "Martian food",
-  "Quantic science"
-]
 
 [[extra.avatar_icons]]
   icon = "linkedin"
   link = "https://www.linkedin.com/in/johnkoleszar"
 +++
 
-Welcome with the kodama theme, inspired from hugo academic theme.
-
-This theme is build with tailwindcss, and uses no JavaScript. It is meant to be simple, yet pretty.
+I take complex systems apart and put them back together again, leaving out some pieces intentionally. I like hard tech and kind people. Let's build something great!
