@@ -8,4 +8,4 @@ page_template="simple-page.html"
   link = "https://www.linkedin.com/in/johnkoleszar"
 +++
 
-I take complex systems apart and put them back together again, leaving out some pieces intentionally. I like hard tech and kind people. Let's build something great!
+I take complex systems apart and put them back together again. Any leftover parts were superfluous. I like hard tech and kind people. Let's build something great!
