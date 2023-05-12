@@ -3,6 +3,9 @@ title = "Statement Of Values"
 date = 2023-05-12
 page_template="simple-page.html"
 +++
+
+---
+
 # My Principles
 
 I consider these to be inviolable.
@@ -15,6 +18,8 @@ I would rather lose than cheat to win. I value the spirit of the game as well as
 
 ## Humanity
 Everyone deserves to be shown dignity and compassion, without exception.
+
+---
 
 # My Values
 These are things I hold in balance and are sometimes in conflict.
@@ -48,6 +53,8 @@ I protect privacy and devalue secrecy. Contributions can come from surprising pl
 
 ## Versatility
 I want to survive the zombie apocalypse. I have a few specialties but strive to be good at many things. I like to be able to jump in and help wherever I can.
+
+---
 
 # My Aspirations
 These values are incredibly important to me, but I struggle with them. I strive to get better every day.
